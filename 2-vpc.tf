@@ -1,6 +1,8 @@
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_service
 
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_network
+
+
 resource "google_compute_network" "planetrock" {
   name                            = "planetrock"
   routing_mode                    = "REGIONAL"
